@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f2f5; /* Light gray background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    height: 100vh;
+    margin: 0;
+    padding-top: 20px; /* Padding to ensure header isn't too high */
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #007bff; /* Blue bottom border */
+}
+
+header h1 {
+    font-size: 28px;
+    color: #007bff; /* Blue for the header */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff; /* Blue for links */
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #fff9e7; /* Light blue on hover */
+    color: #0056b3; /* Darker blue on hover */
+}
+
+main {
+    padding: 20px 0;
+}
+
+.content {
+    padding: 20px;
+    background-color: #ffffff; /* White background for content */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #757575;
+}
+
+/* Custom button styles */
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff; /* Blue button color */
+    color: #ffffff; /* White text color for buttons */
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff; /* Blue header background */
+    color: #ffffff; /* White text color for table headers */
+}
+
+td {
+    color: #000000; /* Dark gray text color for table cells */
+}
+
+tr:nth-child(even) {
+    background-color: #f7f9fc; /* Light gray for even rows */
+}
+
+tr:hover {
+    background-color: #e7f0ff; /* Light blue on row hover */
+}
+
+/* Specific text styles */
+.text-gray-600 {
+    color: #4a5568;
+}
+
+.text-gray-900 {
+    color: #1a202c;
+}
+
+.text-indigo-600 {
+    color: #5a67d8;
+}
+
+.text-indigo-900 {
+    color: #3c366b;
+}
+
+.text-red-600 {
+    color: #e53e3e;
+}
+
+.text-red-900 {
+    color: #742a2a;
+}
+

@@ -1,0 +1,83 @@
+/* Basic styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #e9ecef;
+    color: #343a40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-form .form-group {
+    margin-bottom: 20px;
+}
+
+.login-form .form-group label {
+    font-weight: 500;
+    color: #0c79e6;
+}
+
+.login-form .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-form .form-group input:focus {
+    border-color: #17a2b8;
+    box-shadow: 0 0 5px rgba(23, 162, 184, 0.5);
+}
+
+.login-form .form-group .input-error {
+    color: #e74c3c;
+    font-size: 0.875em;
+    margin-top: 5px;
+}
+
+.login-form .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-form .flex a {
+    color: #17a2b8;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.login-form .flex a:hover {
+    text-decoration: underline;
+    color: #138496;
+}
+
+.login-form .flex button {
+    padding: 10px 20px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form .flex button:hover {
+    background-color: #138496;
+}
